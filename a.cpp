@@ -6,5 +6,8 @@ cout <<"nhap nam sinh la ";
 cin >>a;
 cout << " nam hien nay la ";
 cin >>b;
-cout <<"tuoi cua nguoi do la " <<a-b;
+int tuoi=b-a;
+cout<<"tuoi cua nguoi do la "<<tuoi;
+return 0;
+
 }
